@@ -4,6 +4,10 @@ body, h1, p {
   padding: 0;
 }
 
+#expandableContent {
+  display: none; /* Hide the content by default */
+}
+
 nav {
   background-color: #333;
   color: white;
@@ -74,9 +78,17 @@ nav {
   text-align: left;
 }
 
-.content_raw #SeqQs p {
+.content_raw #SeqQs  {
   text-align: left;
 }
+
+.content_raw #SeqQs h1 {
+  text-align: center;
+}
+
+/* .content_raw #expandableContent {
+  text-align: left;
+} */
 
 @media screen and (max-width: 768px) {
   .food {
